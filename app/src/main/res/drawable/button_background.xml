@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- State when the button is pressed -->
+    <item android:state_pressed="true" android:drawable="@color/pressed" />
+
+    <!-- State when the button is focused (e.g., keyboard or accessibility focus) -->
+    <item android:state_focused="true" android:drawable="@color/focused" />
+
+    <!-- Default state -->
+    <item android:drawable="@color/grey" />
+</selector>

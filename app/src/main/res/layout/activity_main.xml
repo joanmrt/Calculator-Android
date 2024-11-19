@@ -56,7 +56,8 @@
 
             android:id="@+id/buttonClear"
             style="@style/MyButtonStyle"
-            android:text="C" />
+            android:text="C"
+            />
 
         <Button
 
